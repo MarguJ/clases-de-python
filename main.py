@@ -54,8 +54,23 @@ EJERCICIO 7
 precioBruto = float(input("Ingrese precio exacto de la heladera: "))
 IVA = float(0.21)
 precioTotal = precioBruto * IVA
-print("El precio total es " + str(precioTotal))
+billete20000 = float(20000)
+billete10000 = float(10000)
+billete2000 = float(2000)
+billete1000 = float(1000)
+billete500 = float(500)
+billete500 = float(200)
+billete100 = float(100)
+billete10 = float(50)
+billete10 = float(20)
+billete10 = float(10)
+moneda5 = float(5)
+moneda2 = float(2)
+moneda1 = float(1)
 
+while(precioTotal > billete20000):
+    precioTotal / billete20000
+print("El precio total es " + str(precioTotal) + " y necesitas ")
 
 '''
 EJERCICIO 8
